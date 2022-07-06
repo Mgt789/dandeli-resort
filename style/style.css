@@ -1,0 +1,271 @@
+*,
+.container-fluid,
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.nav-link {
+    font-size: 1em;
+    font-weight: bold;
+    color: black !important;
+}
+
+header {
+
+    /* background-image: url("https://img.freepik.com/free-photo/leisure-beautiful-health-garden-landscape_1203-4856.jpg?t=st=1652782073~exp=1652782673~hmac=d0af5092cfe0d510c6275aaa0f906ec9867c845660dc54d54770fc82d116f7fe&w=740"); */
+    background-size: cover;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 25%;
+    color: black;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+
+/* video-img */
+#myVideo {
+    min-width: 100%;
+    max-height: 100vh;
+}
+
+/* video-img-end */
+
+.cardbody img {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* accordion */
+
+/* accordion-end */
+
+/* contactus */
+.call {
+    text-align: center;
+}
+
+.call a {
+    text-decoration: none;
+}
+
+.call i {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+    background-color: rgb(18, 77, 240);
+    border-radius: 50%;
+}
+
+.call span {
+    font-size: 2em;
+    color: blue;
+}
+
+
+.socialmedia {
+    text-align: center;
+    font-size: 2em;
+}
+
+.socialmedia a {
+    padding: 0 5px;
+}
+
+.bi-facebook {
+    color: #3B5998;
+}
+
+.bi-whatsapp {
+    color: #075E54;
+}
+
+.bi-instagram {
+    /* color: rgba(64, green, 93, 230,0); */
+    color: rebeccapurple;
+}
+
+.bi-pinterest {
+    color: #C91517;
+}
+
+.bi-youtube {
+    color: #C31A1E;
+}
+
+/* contactus-end */
+
+/* card  */
+.dis {
+    display: flex;
+}
+
+.homeservice {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.homeservice:hover .imageserviceopen {
+    opacity: 1;
+    position: relative;
+    z-index: 97;
+}
+
+.imgservice {
+    width: 100%;
+    float: left;
+    z-index: 999;
+    margin-top: -70px;
+}
+
+.imageserviceopen {
+    width: 100%;
+    float: left;
+    position: relative;
+    /* background-color: #F36; */
+    margin-top: -4pxpx;
+    opacity: 0;
+}
+
+.percentagehome {
+    position: relative;
+    z-index: 98;
+    margin: auto;
+}
+
+.bottom-grid {
+    width: 380px;
+}
+
+#up-row {
+    margin: -190px 0;
+}
+
+.card-section {
+    background-color: #434a54;
+}
+
+.homeservice h2 {
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.homeservice p {
+    color: whitesmoke;
+}
+
+.homeservice:hover {
+    background-color: whitesmoke;
+    box-shadow: 0 5px 5px white;
+}
+
+.homeservice:hover h2 {
+    color: #434a54;
+}
+
+.homeservice:hover p {
+    color: #434a54;
+}
+
+/* card-end */
+
+/* slider  */
+#slider {
+    margin-top: 180px;
+    
+}
+/* .owl-carousel{
+    position: absolute;
+} */
+
+/* .slider-item{
+    margin-top: 180px;
+} */
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+    background: #ff9966;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff5e62, #ff9966);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.slider-card {
+    background: #fff;
+    padding: 0px 0px;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.slider-card img {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dots .owl-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #ccc !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+}
+
+.owl-dots .owl-dot.active {
+    background: #f44336 !important;
+}
+.img-s img{
+    height: 220px;
+}
+.cap{
+    text-transform: uppercase;
+}
+.slider-card:hover{
+    cursor: pointer;
+}
+.owl-carousel a{
+    text-decoration: none;
+    color: inherit;
+}
+/* slider -end */

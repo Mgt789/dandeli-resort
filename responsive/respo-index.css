@@ -1,0 +1,46 @@
+@media (max-width: 767px){
+    #myVideo{
+        height: auto;
+    }
+    .dis{
+        display: block;
+    }
+    .imgservice{
+        margin-top: 0;
+    }
+    .imageserviceopen{
+        display: none;
+    }
+    .percentagehome{
+        display: none;
+    }
+    #up-row{
+        margin: 0 !important;
+        padding: 10px 10px;
+    }
+    .bottom-grid{
+        width: auto;
+    }
+    #slider{
+        margin: 0;
+    }
+    
+}
+@media (max-width: 900px){
+    #myVideo{
+        height: auto;
+    }
+    #up-row{
+        margin: -120px 0;
+        padding: 10px 10px;
+    }
+    
+   
+}
+@media (max-width: 1080px){
+    #myVideo{
+        width: 100%;
+        height: auto;
+    }
+}
+
